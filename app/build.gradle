@@ -41,6 +41,9 @@ dependencies {
   androidTestImplementation 'com.android.support.test:runner:1.0.2'
   androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
 
+  // Add mockito to your project
+  testImplementation 'org.mockito:mockito-core:2.22.0'
+
   //JSON PARSING
   implementation "com.squareup.moshi:moshi:$moshiVersion"
 }
